@@ -1,0 +1,129 @@
+*{font-family: vazirmatn ;
+   
+}
+
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('fonts/webfonts/Vazirmatn[wght].woff2') format('woff2 supports variations'),
+         url('fonts/webfonts/Vazirmatn[wght].woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+  }
+#header{
+ 
+    border-radius: 10px;
+    text-align: center;
+   font-size: x-large;
+background-color: #ffaeff;
+color: rgb(0, 0, 0);
+box-sizing: border-box;
+margin-left: 40%;
+margin-right: 40%;
+
+
+}
+body{
+    background-color: #ffe7ff;
+}
+address{
+   
+border-radius: 10px;
+text-align: center;
+background-color: #fed3fc;
+color: rgb(0, 0, 0);
+box-sizing: border-box;
+clear: both;
+margin-right: 42%;
+margin-left: 42%;
+font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e22aec;
+    direction: ltr;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #ffc6fd;
+  }
+
+  #text{
+    direction: rtl;
+    text-align: center;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  
+  }
+  
+  div.gallery:hover {
+    border: 2px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 80%;
+    border-image: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+   
+  
+  }
+  #services{
+    margin: auto;
+    padding-left: 15%;
+  }
+
+  .grid-container {clear: both;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    background-color:#ffd5f3;
+    padding: 10px;
+    
+    
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 157, 235, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+
+  }
+  #price{ padding-top: 20px;
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    border-style: dashed;
+    border-color: #dd56dd;
+    border: #5a125a;
+border-radius: 10px;
+
+  }
+ 
